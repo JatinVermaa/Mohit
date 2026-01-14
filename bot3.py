@@ -3,12 +3,12 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import json, os, uuid
 
 # ================= CONFIG =================
-API_ID = 32755421
-API_HASH = "4258ba4e039ad61827c25f42bed3b3bf"
-BOT_TOKEN = "8517136265:AAF9hxyzmFcdhl8dNtUv0thFkpUh0vs4tIE"
+API_ID = 36813893
+API_HASH = "b38f27dfc31313fdc0c76dfd7e790966"
+BOT_TOKEN = "8292237461:AAELGKN21ufeZJdbLBNVambOrM3-3ekCe48"
 
-OWNER_ID = 7401400362
-ADMIN_IDS = {7401400362}
+OWNER_ID = 7242064265
+ADMIN_IDS = {7242064265}
 
 SESSION_NAME = "adv_msg_bot"
 DB_FILE = "db.json"
@@ -252,3 +252,4 @@ async def button_actions(client, cb):
 print("🚀 Bot is running...")
 
 app.run()
+
